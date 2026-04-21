@@ -1,5 +1,40 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.jks
+*.keystore
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+mvn-wrapper.jar
+
+### Gradle ###
+.gradle/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+build/
+.gradletasknamecache
+
 ### IntelliJ IDEA ###
+.idea/
 out/
+*.iml
+*.iws
+*.ipr
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
@@ -25,6 +60,18 @@ bin/
 
 ### VS Code ###
 .vscode/
+*.code-workspace
 
 ### Mac OS ###
 .DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+
+### Logs ###
+*.log
+logs/
+*.log.*
