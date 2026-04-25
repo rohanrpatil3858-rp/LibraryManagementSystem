@@ -75,3 +75,29 @@ ehthumbs.db
 *.log
 logs/
 *.log.*
+
+### Local runtime / crash files ###
+*.pid
+*.pid.lock
+*.seed
+*.tmp
+*.temp
+*.stackdump
+hs_err_pid*
+replay_pid*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Environment / personal config ###
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+
+### OS noise ###
+Desktop.ini
+
+PRD.md
+
